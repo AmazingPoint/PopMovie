@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="RatingBarGray" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/colorAccent</item>
+        <item name="android:progressBackgroundTint">@color/colorGray</item>
+        <item name="android:secondaryProgressTint">@color/colorAccent</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:numStars">5</item>
+    </style>
+
+    <style name="DetailTitle" >
+        <item name="android:textSize">@dimen/detail_title_size</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="DetailDate" >
+        <item name="android:textSize">@dimen/detail_date_size</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="DetailVote">
+        <item name="android:textSize">@dimen/detail_vote_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+
+</resources>

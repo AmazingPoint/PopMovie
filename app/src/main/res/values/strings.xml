@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Meet A Movie</string>
+    <string name="label_name">Movie Name:</string>
+    <string name="label_pub_date">Release:</string>
+
+    <string name="menu_setting">Settings</string>
+    <string name="setting_Language">Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zh">Chinese</string>
+    <string name="setting_sort">Sort</string>
+    <string name="sort_pop">Popular</string>
+    <string name="sort_voting">Voting</string>
+
+    <string name="loading">...</string>
+    <string name="close">Close</string>
+    <string name="ensure">OK</string>
+
+    <string name="networ_error_info">It looks like that you are offline...</string>
+</resources>

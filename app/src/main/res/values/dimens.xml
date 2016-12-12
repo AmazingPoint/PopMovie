@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--GridView items margin, spacing-->
+    <dimen name="grid_view_padding">15dp</dimen>
+    <dimen name="grid_item_margin_horizontal">15dp</dimen>
+    <dimen name="grid_item_margin_vertical">15dp</dimen>
+
+    <!-- FontSize -->
+    <dimen name="grid_title_size">14sp</dimen>
+    <dimen name="grid_vote_size">13sp</dimen>
+    <dimen name="detail_title_size">24sp</dimen>
+    <dimen name="detail_vote_size">32sp</dimen>
+    <dimen name="detail_date_size">15sp</dimen>
+
+</resources>

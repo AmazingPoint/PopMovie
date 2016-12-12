@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="popm.andy.com.popmovie.MainActivity">
+
+    <GridView android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="@dimen/grid_item_margin_vertical"
+        android:horizontalSpacing="@dimen/grid_item_margin_horizontal"
+        android:paddingTop="@dimen/grid_view_padding"
+        android:paddingLeft="@dimen/grid_view_padding"
+        android:paddingRight="@dimen/grid_view_padding"
+        android:stretchMode="columnWidth"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:gravity="center">
+    </GridView>
+
+
+</FrameLayout>

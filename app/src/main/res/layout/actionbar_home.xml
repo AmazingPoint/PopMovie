@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/grid_item_margin_vertical"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/menu_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_alignBottom="@id/text_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:layout_alignParentRight="true"
+        android:text="@string/menu_setting"/>
+
+</RelativeLayout>

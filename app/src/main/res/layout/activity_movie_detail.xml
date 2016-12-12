@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".MovieDetailActivity"
+    >
+
+
+
+    <ImageView
+        android:background="@color/colorWhite"
+        android:elevation="5dp"
+        android:layout_width="120dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/picture"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="180dp" />
+
+
+    <TextView
+        style="@style/DetailDate"
+        android:text="@string/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_alignBaseline="@+id/label_pub_date"
+        android:layout_toEndOf="@+id/label_pub_date"
+        android:id="@+id/text_pub_date" />
+
+    <TextView
+        style="@style/DetailTitle"
+        android:text="@string/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:id="@+id/text_name"
+        android:layout_alignTop="@+id/picture"
+        android:layout_toEndOf="@+id/picture" />
+
+    <TextView
+        style="@style/DetailDate"
+        android:text="@string/label_pub_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/label_pub_date"
+        android:layout_below="@+id/text_name"
+        android:layout_alignStart="@+id/text_name" />
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:id="@+id/ratingBar"
+        style="@style/RatingBarGray"
+        android:layout_above="@+id/text_vote"
+        android:layout_alignStart="@+id/label_pub_date" />
+
+    <TextView
+        style="@style/DetailVote"
+        android:text="@string/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_vote"
+        android:layout_alignBottom="@id/picture"
+        android:layout_alignStart="@id/ratingBar" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picture"
+        android:layout_alignStart="@+id/picture"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_description" />
+
+</RelativeLayout>
+
+
+</ScrollView>
